@@ -1,0 +1,39 @@
+{
+    "header": {
+        "title": "Mitt CV",
+        "nav": [
+            { "text": "Hem", "link": "index.html" },
+            { "text": "CV", "link": "/Pages/cv.html" },
+            { "text": "Portfolio", "link": "/Pages/portfolio.html" },
+            { "text": "Kontakt", "link": "/Pages/contact.html" }
+        ]
+    },
+    "cv": {
+        "presentation": {
+            "title": "Presentation",
+            "text": "Hej, jag heter Mohammed Yabrag och jag är en student på frontendutvecklare React på yrkeshögskolan i Borås.",
+            "link": "/Pages/presentation.html"
+        },
+        "education": {
+            "title": "Utbildning",
+            "entries": [
+                { "school": "Yrkeshögskolan", "program": "Frontendutvecklare React", "years": "2025 - Nu" },
+                { "school": "Sveriges lantbruksuniversitet SLU", "program": "Hippologprogrammet", "years": "2019 - 2021" }
+            ],
+            "link": "/Pages/utbildning.html"
+        },
+        "experience": {
+            "title": "Arbetslivserfarenhet",
+            "entries": [
+                { "job": "Ridinstruktör", "company": "Landskrona ridklubb", "years": "2022 - Nu" },
+                { "job": "Ridinstruktör", "company": "Lund Civila Ryttarförening", "years": "2021 - 2022" },
+                { "job": "Personbilsmekaniker", "company": "Centrumrep AB Vindeln", "years": "2018 - 2019" },
+                { "job": "Timanställd", "company": "Vindelns kommun", "years": "2017 - 2019" }
+            ],
+            "link": "/Pages/arbetslivserfarenhet.html"
+        }
+    },
+    "footer": {
+        "text": "© 2025 Mohammed Yabrag. Alla rättigheter är förbehållna."
+    }
+}
