@@ -5,59 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mitt CV – Hem</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="/main.js" defer></script>
 </head>
 <body>
   <!-- Sidhuvud med navigering -->
   <header>
-    <h1>Välkommen!</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Hem</a></li>
-        <li><a href="/Pages/cv.html">CV</a></li>
-        <li><a href="/Pages/portfolio.html">Portfolio</a></li>
-        <li><a href="/Pages/contact.html">Kontakt</a></li>
-      </ul>
-    </nav>
+    <h1 id="title"></h1>
+    <nav><ul id="nav-list"></ul></nav>
   </header>
 
   <!-- Huvudinnehåll – Presentation -->
   <main>
-    <div class="container">
-        <div class="column">
-            <img src="/imags/profile.jpg" alt="Profilbild">
-        </div>
+    <div class="container" id="imagesContainer">
+        
       <div class="column">
-        <h2>Mitt CV</h2>
-        <p>Hej, jag heter Mohammed Yabrag och jag är en 
-            student på frontendutvecklare React på yrkeshögskolan i Borås.</p>
-        <a href="/Pages/cv.html">Läs mer</a>
+        <h2 id="presentation-title"></h2>
+        <p id="presentation-content"></p>
+        <a id="presentation-link">Läs mer</a>
       </div>
       
     </div>
-    <h2>Projekt</h2>
-    <div class="container">
-        <div class="column">
-            <h3>Projekt 1</h3>
-            <img src="project1.jpg" alt="Projekt 1">
-            <p>Beskrivning av projekt 1.</p>
-            <!-- modal-knapp  -->
-            <a href="#modal-proj1">Mer info</a>
-        </div>
-        <!-- Projekt 2 -->
-        <div class="column">
-            <h3>Projekt 2</h3>
-            <img src="project2.jpg" alt="Projekt 2">
-            <p>Beskrivning av projekt 2.</p>
-            <a href="#modal-proj2">Mer info</a>
-        </div>
-    </div>    
+    <h2 id="projects-heading"></h2>
+    <div class="container" id="projectsContainer"></div>    
   </main>
 
   <!-- Sidfot -->
   <footer>
-    <p>&copy; 2025 Mohammed Yabrag. 
-        Alla rättigheter är förbehållna.</p>
+    <p id="footer-content"></p>
   </footer>
 </body>
 </html>
