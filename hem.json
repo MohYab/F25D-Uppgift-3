@@ -1,0 +1,50 @@
+{
+    "index": {
+      "header": {
+        "title": "Välkommen!"
+      },
+      "nav": [
+        { "text": "Hem", "link": "index.html" },
+        { "text": "CV", "link": "/Pages/cv.html" },
+        { "text": "Portfolio", "link": "/Pages/portfolio.html" },
+        { "text": "Kontakt", "link": "/Pages/contact.html" }
+      ],
+      "profileimages": [
+        {"bild": "/imags/profile.jpg", 
+        "alt": "Profilbild",
+        "description": "Flyinge kungsgård, Juni 2020"
+        }
+      ],
+
+      "presentation": {
+        "title": "Mitt CV",
+        "text": "Hej, jag heter Mohammed Yabrag och jag är en student på frontendutvecklare React på yrkeshögskolan i Borås.",
+        "link": "/Pages/cv.html"
+      },
+      "projects": {
+        "heading": "Mina Projekt",
+        "items": [
+          {
+            "title": "Projekt 1", 
+            "image": "/imags/project-1.jpg", 
+            "alt": "Projekt 1",
+            "description": "Beskrivning av projekt 1.",
+            "Link": "#modal-proj1",
+            "LinkText": "Mer info"
+          },
+          {
+            "title": "Projekt 2",
+            "image": "/imags/project-2.jpg",
+            "alt": "Projekt 2",
+            "description": "Beskrivning av projekt 2.",
+            "Link": "#modal-proj2",
+            "LinkText": "Mer info"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "text": "© 2025 Mohammed Yabrag. Alla rättigheter är förbehållna."
+    }
+  }
+  
