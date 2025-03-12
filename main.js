@@ -76,18 +76,3 @@ function loadData(data) {
     footerContentElemnt.textContent = data.footer.text;
 
 }
-
- //let projectsListElement = document.getElementById('projects-list');
-
-    //data.index.projects.prolist.forEach(proListItem => {
-    //    let projectElement = document.createElement('li');
-    //    let projectLinkElement = document.createElement('a');
-    //    let projectImageElement = document.createElement('source')
-    //    let projectDescription = document.textContent
-
-    //    projectElement.appendChild(projectLinkElement);
-    //  projectLinkElement.href = proListItem.link;
-    //    navLinkElement.textContent = proListItem.text;
-    //    proListElement.appendChild(projectElement)
-
-    //});
